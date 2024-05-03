@@ -3,6 +3,9 @@
 ## Introduction:
 Our project addresses the culinary dilemmas faced by international students, who often find themselves in unfamiliar kitchens with limited knowledge of recipes and ingredients. Through the innovative use of Convolutional Neural Networks (CNNs), our system offers a seamless solution for meal planning and recipe recommendations. By simply uploading images of available vegetables or manually inputting ingredients, users can access a curated list of top recipes tailored to their resources and preferences.
 
+![image](https://github.com/Bhimsendabby/recipeRecommendationUsingCNN/assets/35491121/3f044cd3-fe5c-4d0b-a948-0699877e7b4c)
+
+
 ## Purpose:
 The primary motivation behind our project is to empower international students with the confidence and capability to cook nutritious and delicious meals, even with minimal culinary experience or ingredients at hand. Recognizing the challenges of adapting to new environments, especially in terms of food culture, our system serves as a digital sous chef, guiding users through the cooking process with ease and efficiency.
 
