@@ -14,7 +14,7 @@ category = {
 
 def predict_image(filename):
     # Path of the model where model is stored
-    path_to_model = r'model_inceptionV3_epoch5.h5'
+    path_to_model = r'model/model_inceptionV3_epoch5.h5'
     print("Loading the model..")
 
     # Load model using load_model function of Keras
