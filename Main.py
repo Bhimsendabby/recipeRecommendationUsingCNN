@@ -5,6 +5,12 @@ Here's our first attempt at using data to create a table:
 
 import streamlit as st
 import pandas as pd
+import tensorflow as tf
+from tensorflow import keras
+
+from PIL import Image, ImageOps
+import numpy as np
+
 from PIL import Image
 from model import predict_image, category
 from tempfile import NamedTemporaryFile
