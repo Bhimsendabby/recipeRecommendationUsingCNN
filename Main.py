@@ -10,14 +10,14 @@ import tensorflow as tf
 from tensorflow import keras
 from tempfile import NamedTemporaryFile
 
-import pandas as pd
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
-from model2 import get_recommendations
+
 
 
 #Set the page configuration for multiple page
@@ -68,7 +68,7 @@ def predict_image(filename):
 
 
 # Load the dataset
-df = pd.read_csv(r"D:\NewDownloads\NewIndianFoodDatasetCSV.csv")
+df = pd.read_csv(r"dataset\NewIndianFoodDatasetCSV.csv")
 
 # Select the relevant columns
 df = df[['TranslatedRecipeName', 'TranslatedIngredients', 'Cuisine', 'Course','TotalTimeInMins','URL']]
