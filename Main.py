@@ -68,7 +68,7 @@ def predict_image(filename):
 
 
 # Load the dataset
-df = pd.read_csv(r"dataset\NewIndianFoodDatasetCSV.csv")
+df = pd.read_csv(r"NewIndianFoodDatasetCSV.csv")
 
 # Select the relevant columns
 df = df[['TranslatedRecipeName', 'TranslatedIngredients', 'Cuisine', 'Course','TotalTimeInMins','URL']]
