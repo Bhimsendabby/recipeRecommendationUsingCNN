@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
 # Load the dataset
-df = pd.read_csv(r"D:\NewDownloads\NewIndianFoodDatasetCSV.csv")
+df = pd.read_csv(r"NewIndianFoodDatasetCSV.csv")
 
 # Select the relevant columns
 df = df[['TranslatedRecipeName', 'TranslatedIngredients', 'Cuisine', 'Course','TotalTimeInMins','URL']]
